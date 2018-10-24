@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane prefHeight="451.0" prefWidth="676.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="nta.uet.vnu.Controller">
+   <children>
+      <AnchorPane prefHeight="123.0" prefWidth="676.0" style="-fx-background-color: #4fb053;">
+         <children>
+            <TextField layoutX="14.0" layoutY="61.0" prefHeight="31.0" prefWidth="229.0" promptText="Tìm kiếm...." />
+            <Button id="them" layoutX="286.0" layoutY="64.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="94.0" text="Thêm">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Button>
+            <Button layoutX="430.0" layoutY="64.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="94.0" text="Sửa">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Button>
+            <Button layoutX="573.0" layoutY="64.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="88.0" text="Xóa" />
+            <ImageView fitHeight="52.0" fitWidth="133.0" layoutX="25.0" layoutY="9.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../../Desktop/lookup.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="-2.0" layoutY="123.0" prefHeight="323.0" prefWidth="246.0" style="-fx-background-color: # 8B7D7B;">
+         <children>
+            <ListView layoutX="23.0" layoutY="15.0" prefHeight="296.0" prefWidth="216.0" />
+            <ImageView fitHeight="287.0" fitWidth="216.0" layoutX="23.0" layoutY="18.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../../Desktop/tenlua.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="244.0" layoutY="122.0" prefHeight="312.0" prefWidth="431.0">
+         <children>
+            <Button layoutX="275.0" layoutY="35.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="46.0" style="-fx-background-image: chim.png;" text="P">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Button>
+            <TextFlow layoutX="11.0" layoutY="13.0" prefHeight="287.0" prefWidth="409.0" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

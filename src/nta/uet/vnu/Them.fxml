@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane prefHeight="263.0" prefWidth="424.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="nta.uet.vnu.Controller">
+   <children>
+      <AnchorPane layoutY="-1.0" prefHeight="59.0" prefWidth="424.0" style="-fx-background-color: gray;">
+         <children>
+            <Text layoutX="143.0" layoutY="44.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Thêm Từ">
+               <font>
+                  <Font size="36.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+      <TextField layoutX="74.0" layoutY="95.0" prefHeight="37.0" prefWidth="277.0" promptText="Nhập từ ...." />
+      <TextField layoutX="74.0" layoutY="146.0" prefHeight="37.0" prefWidth="277.0" promptText="Nhập nghĩa" />
+      <Button layoutX="110.0" layoutY="206.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="49.0" text="Gửi" />
+      <Button layoutX="265.0" layoutY="206.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="49.0" text="Trở về" />
+   </children>
+</AnchorPane>

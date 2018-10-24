@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane prefHeight="444.0" prefWidth="735.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="nta.uet.vnu.DictionaryApplication">
+   <children>
+      <AnchorPane prefHeight="445.0" prefWidth="200.0" style="-fx-background-color: gray;">
+         <children>
+            <Pane prefHeight="60.0" prefWidth="200.0" style="-fx-background-color: black;">
+               <children>
+                  <Label layoutX="53.0" layoutY="16.0" prefHeight="25.0" prefWidth="94.0" text="Dictionary" textFill="WHITE">
+                     <font>
+                        <Font name="Kristen ITC" size="18.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            <Button alignment="BOTTOM_LEFT" layoutY="83.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="200.0" text="Thêm Từ">
+               <font>
+                  <Font name="Cooper Black" size="16.0" />
+               </font>
+            </Button>
+            <Button alignment="BOTTOM_LEFT" layoutY="114.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="200.0" text="Xóa">
+               <font>
+                  <Font name="Cooper Black" size="18.0" />
+               </font>
+            </Button>
+            <Button alignment="BOTTOM_LEFT" layoutY="147.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="200.0" text="Sửa">
+               <font>
+                  <Font name="Cooper Black" size="18.0" />
+               </font>
+            </Button>
+            <TextField layoutY="179.0" prefHeight="25.0" prefWidth="200.0" promptText="Search...." />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="200.0" prefHeight="445.0" prefWidth="523.0">
+         <children>
+            <Pane prefHeight="155.0" prefWidth="541.0">
+               <children>
+                  <Button layoutX="14.0" layoutY="2.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="211.0" text="Anh -Việt " />
+                  <Button layoutX="230.0" layoutY="2.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="180.0" text="Việt - Anh" />
+               </children>
+            </Pane>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
